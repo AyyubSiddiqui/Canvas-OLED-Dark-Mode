@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas OLED Dark Mode",
+  "version": "1.0.0",
+  "description": "Universal OLED dark mode for Canvas LMS",
+  "author": "Ayyub Siddiqui",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.instructure.com/*",
+        "https://*.canvaslms.com/*"
+      ],
+      "js": [
+        "loader.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "content.js"
+      ],
+      "matches": [
+        "https://*.instructure.com/*",
+        "https://*.canvaslms.com/*"
+      ]
+    }
+  ]
+}
