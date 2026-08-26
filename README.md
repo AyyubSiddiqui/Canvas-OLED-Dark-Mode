@@ -1,6 +1,6 @@
 Disclaimer
 
-This is an independent, unofficial browser extension. It is not affiliated with, endorsed by, or sponsored by Instructure Inc., Canvas LMS, or any educational institution. "Canvas" is a trademark of Instructure Inc., referenced here only to describe compatibility.
+This is an independent chrome extension. It is not affiliated with, endorsed by, or sponsored by Instructure Inc., Canvas LMS, or any educational institution. "Canvas" is a trademark of Instructure Inc., referenced here only to describe compatibility.
 
 This extension works by modifying the visual appearance of pages you load in your browser. It does not collect, transmit, or store any of your data.
 
